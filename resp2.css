@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 375px){
+  
+.one{
+  background-color: hsl(193, 100%, 96%);
+  padding: 20px;
+  margin: 20px;
+}
+}
+
+@media only screen and (min-width: 1440px){
+  main{
+    background-image: url('/bg-hero-desktop.svg');
+    display: grid;
+  }
+  .two, .three, .four, .five{
+    display: flex;
+  }
+}
+main{
+    background-image: url('bg-hero-mobile.svg');
+    display: grid;
+    text-align: center;
+    font-size:18px;
+    font-family: "open Sans";
+    font-weight: 400;
+  }
+
+button{
+  background-color: hsl(322, 100%, 66%);
+  width: 150px;
+  padding:10px;
+  border-radius:15px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.top_button{
+  background-color: white;
+  width: 120px;
+  padding: 5px;
+  border-radius: 12px;
+}
+header{
+  background-image: url('bg-hero-mobile.svg');
+  text-align: center;
+}
+h2{
+  font-family: "poppins";
+  font-weight:600;
+  margin:10px;
+  
+}
+img{
+  margin:14px;
+}
+p{
+  margin: 12px;
+}
+.two, .three, .four, .five{
+  border: 1px solid white;
+  box-shadow: 0 0 25px 0 grey;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+div {
+  width: 100px;
+  transition: width 2s;
+}
+
+div:hover {
+  width: 300px;
+}
+footer{
+  background-color:hsl(192, 100%, 9%);
+  color: white;
+}
+/*addition*/
+.under, .phone, .mail{
+  display: flex;
+}
+ul{
+  list-style: none;
+
+}
+li{
+  margin: 15px;
+  font-weight: 700;
+}
+.copy {
+  text-align: center;
+}
+.icon{
+ margin-left:160px;
+}
