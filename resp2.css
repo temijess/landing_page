@@ -6,10 +6,9 @@
 
 @media only screen and (min-width: 375px){
   
-.one{
+header, .one{
   background-color: hsl(193, 100%, 96%);
   padding: 20px;
-  margin: 20px;
 }
 }
 
@@ -18,10 +17,30 @@
     background-image: url('/bg-hero-desktop.svg');
     display: grid;
   }
-  .two, .three, .four, .five{
+  header{
+    di;
+  }
+  .one, .two, .three, .four{
     display: flex;
+    text-align: center;
+    align-items: center;
+   }
+  .two{display:flex; flex-direction: row;}
+    #div-a{order: 2;}
+    #div-b{order: 1;}
+  
+  .four{display:flex; flex-direction: row;}
+    #div-e{order: 2;}
+    #div-f{order: 1;}
+  
+  #div-a{
+    width: 200px;
   }
 }
+.one{
+  text-align: center;
+}
+
 main{
     background-image: url('bg-hero-mobile.svg');
     display: grid;
@@ -30,6 +49,7 @@ main{
     font-family: "open Sans";
     font-weight: 400;
   }
+
 
 button{
   background-color: hsl(322, 100%, 66%);
@@ -41,10 +61,20 @@ button{
 }
 .top_button{
   background-color: white;
-  width: 120px;
+  width: 150px;
   padding: 5px;
   border-radius: 12px;
+  position: absolute;
+  top: 0;
+  right: 0;
+
 }
+.logo-top{
+position: absolute;
+top: 0;
+left: 0;
+}
+
 header{
   background-image: url('bg-hero-mobile.svg');
   text-align: center;
@@ -68,13 +98,9 @@ p{
   margin: 20px;
 }
 
-div {
-  width: 100px;
-  transition: width 2s;
-}
 
-div:hover {
-  width: 300px;
+div:hover{
+width:500px;
 }
 footer{
   background-color:hsl(192, 100%, 9%);
@@ -97,4 +123,5 @@ li{
 }
 .icon{
  margin-left:160px;
+ 
 }
